@@ -7,11 +7,9 @@ class AnalogClock {
         Scanner scanner = new Scanner(System.in);
 
         //Reads ints from user
+        int degrees = scanner.nextInt();
 
-
-        /*
-         *  your code goes here
-         */
+        System.out.print(degrees % 30 * 12);
 
         // closing the scanner object
         scanner.close();
