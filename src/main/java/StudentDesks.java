@@ -10,6 +10,7 @@ class StudentDesks {
         int room2 = scanner.nextInt();
         int room3 = scanner.nextInt();
 
+				//Test of github in replit command line
         System.out.print( room1/2 + room1 %2 + room2/2 + room2 %2 + room3/2 + room3 %2);
 
 
