@@ -7,6 +7,7 @@ class SecondsPastMidnight {
         Scanner scanner = new Scanner(System.in);
 
         //Reads int from user
+				//This is a test of command line
         int sec = scanner.nextInt();
 				int hours;
 				int mins;
